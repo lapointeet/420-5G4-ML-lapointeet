@@ -1,0 +1,8 @@
+cat << 'EOF' > .gitignore
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+analyse_image/data/*.csv
+analyse_image/data/*.idx*-ubyte
+EOF
